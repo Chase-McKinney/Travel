@@ -1,0 +1,137 @@
+/* Global Stylpes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+html {
+    font-size:  62.5%;
+}
+
+h1 {
+    font-size: 4.8rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+ }
+
+ li {
+     font-size: 2.4rem;
+ }
+
+ a{
+     color: #95a5a6;
+     text-decoration: none;
+ }
+/* Buttons */
+ #explore {
+    padding: 1rem 4rem;
+    font-size: 1.8rem;
+    margin-bottom: 20rem;
+    background: #95a5a6;
+    color: #f1c40f ;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border-radius: 1rem;
+    align-items: center baseline;
+}
+
+#explore:hover {
+    background-color: #f1c40f;
+    color: #95a5a6;
+    border-radius: 100rem;
+}
+
+#book-now {
+    padding: 1rem 4rem;
+    font-size: 1.8rem;
+    margin-bottom: 20rem;
+    background: #95a5a6;
+    color: #f1c40f ;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border-radius: 1rem;
+    align-items: center baseline;
+}
+
+ /* Headings */
+
+ header {
+     background-color:#ffa502;
+     color:#f5f6fa;
+ }
+
+ /* Nav */
+ nav {
+     min-height: 10vh;
+     display: flex;
+     width: 90%;
+     padding: 3rem;
+     margin: auto;
+     align-items: center;
+     flex-wrap: wrap;
+     
+ }
+
+ nav ul {
+     display: flex;
+     flex:  1 1 40rem;
+     justify-content: space-around;
+     align-items: center;
+     list-style: none;
+     
+ }
+
+ #logo {
+     flex: 2 1 40rem;
+     font-family: 'Six Caps', sans-serif;
+    }
+
+ #hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url("images/travel3.jpg");
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+#about {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url("images/Travel.jpg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+#book-now {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), transparent), url("images/Travel2.jpg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
